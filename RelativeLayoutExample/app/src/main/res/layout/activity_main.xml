@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#9f2">
+
+    <TextView
+        android:id="@+id/ob1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello CSE"
+        android:paddingBottom="20dp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:layout_below="@id/ob1"
+        android:id="@+id/button1"
+        android:paddingBottom="70dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:layout_below="@id/button1"
+        android:id="@+id/button2" />
+
+    <TextView
+        android:id="@+id/ob2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello CSE"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="32dp"
+        android:textColor="#FE3"
+        android:layout_toRightOf="@id/button1"
+        android:layout_below="@id/ob1"
+        android:paddingBottom="20dp"
+        android:background="#D04"/>
+
+
+
+</RelativeLayout>
